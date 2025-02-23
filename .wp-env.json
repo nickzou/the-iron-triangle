@@ -1,7 +1,7 @@
 {
     "core": "WordPress/WordPress#master",
     "plugins": [
-        "./web/wp-content/plugins"
+        "./web/wp-content/plugins/wordpress-seo"
     ],
     "themes": [
         "./web/wp-content/themes"
