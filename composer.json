@@ -1,0 +1,16 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org",
+            "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+        }
+    ],
+    {
+    "extra": {
+        "installer-paths": {
+            "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "web/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    }
+}
