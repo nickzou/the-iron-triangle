@@ -1,0 +1,15 @@
+{
+  "name": "modern-wp-boilerplate",
+  "version": "1.0.0",
+  "description": "A modern WordPress boilerplate",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^10.18.0"
+  }
+}
