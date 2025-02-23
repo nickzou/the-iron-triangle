@@ -12,7 +12,7 @@
     {
     "extra": {
         "installer-paths": {
-            "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
         }
     },
     "config": {
