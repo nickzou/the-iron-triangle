@@ -6,11 +6,18 @@
             "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
         }
     ],
+    "require": {
+        "wpackagist-plugin/wordpress-seo": "^24.5"
+    },
     {
     "extra": {
         "installer-paths": {
             "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
-            "web/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
         }
     }
 }
