@@ -9,7 +9,6 @@
     "require": {
         "wpackagist-plugin/wordpress-seo": "^24.5"
     },
-    {
     "extra": {
         "installer-paths": {
             "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
