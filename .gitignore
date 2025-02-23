@@ -1,1 +1,4 @@
 node_modules
+
+web/wp-content/plugins/
+web/wp-content/themes/*/css/
