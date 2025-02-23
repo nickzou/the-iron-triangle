@@ -13,7 +13,7 @@
     "env:stop": "wp-env stop",
     "env:clean": "wp-env clean all",
     "env:destroy": "wp-env destroy",
-    "tailwind": "@tailwindcss/cli -i ./src/css/tailwind.css -o ./web/wp-content/themes/base-theme/css/tailwind.css"
+    "tailwind": "npx @tailwindcss/cli -i ./src/css/tailwind.css -o ./web/wp-content/themes/base-theme/css/tailwind.css"
   },
   "devDependencies": {
     "@wordpress/env": "^10.18.0"
