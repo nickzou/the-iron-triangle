@@ -8,4 +8,9 @@
 **/*.json
 **/*.lock
 **/*.css
+**/*.js
+**/*.jsx
+**/*.ts
+**/*.tsx
 .prettierrc
+
