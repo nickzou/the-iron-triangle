@@ -14,7 +14,9 @@
     "env:clean": "wp-env clean all",
     "env:destroy": "wp-env destroy",
     "tailwind": "npx @tailwindcss/cli -i ./tailwind.css -o ./web/wp-content/themes/base-theme/css/tailwind.css",
-    "tailwind:watch": "npx @tailwindcss/cli -i .tailwind.css -o ./web/wp-content/themes/base-theme/css/tailwind.css"
+    "tailwind:watch": "npx @tailwindcss/cli -i .tailwind.css -o ./web/wp-content/themes/base-theme/css/tailwind.css",
+    "php:format-check": "prettier . --check",
+    "php:format": "prettier . --write"
   },
   "devDependencies": {
     "@prettier/plugin-php": "^0.22.4",
