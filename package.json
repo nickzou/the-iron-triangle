@@ -16,7 +16,8 @@
     "tailwind": "npx @tailwindcss/cli -i ./tailwind.css -o ./web/wp-content/themes/base-theme/css/tailwind.css",
     "tailwind:watch": "npx @tailwindcss/cli -i .tailwind.css -o ./web/wp-content/themes/base-theme/css/tailwind.css",
     "php:format-check": "prettier . --check",
-    "php:format": "prettier . --write"
+    "php:format": "prettier . --write",
+    "php:watch": "'./web/wp-content/themes/**/*.php' -c 'prettier --write {{file}}'"
   },
   "devDependencies": {
     "@prettier/plugin-php": "^0.22.4",
