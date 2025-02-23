@@ -1,5 +1,6 @@
 .DS_Store
 node_modules
+vendor
 
 web/wp-content/plugins/
 web/wp-content/themes/*/css/
