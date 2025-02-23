@@ -16,7 +16,9 @@
     "tailwind": "npx @tailwindcss/cli -i ./src/css/tailwind.css -o ./web/wp-content/themes/base-theme/css/tailwind.css"
   },
   "devDependencies": {
-    "@wordpress/env": "^10.18.0"
+    "@prettier/plugin-php": "^0.22.4",
+    "@wordpress/env": "^10.18.0",
+    "prettier": "^3.5.2"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.0.8",
