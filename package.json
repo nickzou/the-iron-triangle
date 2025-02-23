@@ -24,7 +24,8 @@
     "@wordpress/env": "^10.18.0",
     "chokidar-cli": "^3.0.0",
     "prettier": "^3.5.2",
-    "prettier-plugin-tailwindcss": "^0.6.11"
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "typescript": "^5.7.3"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.0.8",
