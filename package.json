@@ -18,9 +18,12 @@
     "php:format-check": "prettier . --check",
     "php:format": "prettier . --write",
     "php:watch": "chokidar './web/wp-content/themes/**/*.php' -c 'prettier {path} --write'",
-    "ts:build": "esrun esbuild.config.mjs",
+    "ts:dev": "esrun esbuild.config.mjs",
     "ts:prod": "esrun esbuild.prod.mjs",
-    "ts:watch": "esrun esbuild.watch.mjs"
+    "ts:watch": "esrun esbuild.watch.mjs",
+    "lightningcss:dev": "lightningcss ./src/css/** --output-dir ./web/wp-content/themes/base-theme/css/ --sourcemap --bundle --targets \">= 0.25%\"",
+    "lightningcss:prod": "lightningcss ./src/css/** --output-dir ./web/wp-content/themes/base-theme/css/ --minify --bundle --targets \">= 0.25%\"",
+    "lightningcss:watch": "chokidar './src/css/**/*.css' -c 'lightningcss --sourcemap --bundle --targets \">= 0.25%\" {path} -o ./web/wp-content/themes/base-theme/css/$(basename {path})'"
   },
   "devDependencies": {
     "@prettier/plugin-php": "^0.22.4",
