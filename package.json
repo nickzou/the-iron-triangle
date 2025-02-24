@@ -40,6 +40,7 @@
     "browser-sync": "^3.0.3",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^9.1.2",
+    "dotenv": "^16.4.7",
     "esbuild": "^0.25.0",
     "esrun": "^3.2.26",
     "glob": "^11.0.1",
