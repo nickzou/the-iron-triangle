@@ -4,3 +4,4 @@ vendor
 
 web/wp-content/plugins/
 web/wp-content/themes/*/css/
+web/wp-content/themes/*/js/
