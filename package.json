@@ -19,6 +19,7 @@
     "php:format-check": "prettier . --check",
     "php:format": "prettier . --write",
     "php:watch": "chokidar './web/wp-content/themes/**/*.php' -c 'prettier {path} --write'",
+    "php:lint": "esrun phplint.mjs",
     "ts:dev": "esrun esbuild.config.mjs",
     "ts:prod": "esrun esbuild.prod.mjs",
     "ts:watch": "esrun esbuild.watch.mjs",
