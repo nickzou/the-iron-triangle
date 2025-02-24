@@ -1,5 +1,8 @@
 import * as esbuild from 'esbuild';
 import { globSync } from 'glob';
+import * as dotenv from 'dotenv';
+
+dotenv.config();
 
 const themeName = process.env.THEME_NAME || 'base-theme';
 
