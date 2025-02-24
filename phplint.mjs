@@ -8,7 +8,7 @@ const themeName = process.env.THEME_NAME ?? "base-theme";
 
 const phpFiles = globSync(`./web/wp-content/themes/${themeName}/**/*.php`);
 
-console.log(`Found ${phpFiles.length} PHP files in ${themeName}`);
+console.log(`PHP Lint: Found ${phpFiles.length} PHP files in ${themeName}`);
 
 phpFiles.forEach((file) => {
     try {
