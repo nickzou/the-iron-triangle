@@ -1,2 +1,1 @@
-console.log('hello WP!');
-
+console.log("hello WP!");

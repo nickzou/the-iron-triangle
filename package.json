@@ -22,11 +22,14 @@
     "ts:prod": "esrun esbuild.prod.mjs",
     "ts:watch": "esrun esbuild.watch.mjs",
     "ts:typecheck": "tsc --noEmit --project tsconfig.json",
+    "biome": "biome check --write",
+    "biome:watch": "chokidar './src/**/*' -c 'biome check {path} --write'",
     "lightningcss:dev": "lightningcss ./src/css/** --output-dir ./web/wp-content/themes/base-theme/css/ --sourcemap --bundle --targets \">= 0.25%\"",
     "lightningcss:prod": "lightningcss ./src/css/** --output-dir ./web/wp-content/themes/base-theme/css/ --minify --bundle --targets \">= 0.25%\"",
     "lightningcss:watch": "chokidar './src/css/**/*.css' -c 'lightningcss --sourcemap --bundle --targets \">= 0.25%\" {path} -o ./web/wp-content/themes/base-theme/css/$(basename {path})'"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@prettier/plugin-php": "^0.22.4",
     "@wordpress/env": "^10.18.0",
     "chokidar-cli": "^3.0.0",
