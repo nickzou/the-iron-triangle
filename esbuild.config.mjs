@@ -1,9 +1,9 @@
 import * as esbuild from 'esbuild';
-import glob from 'glob';
+import { globSync } from 'glob';
 
 const themeName = process.env.THEME_NAME || 'base-theme';
 
-const entryPoints = glob.sync('./src/ts/**/*.ts', { ignore: './src/ts/**/*.d.ts' });
+const entryPoints = globSync('./src/ts/**/*.ts', { ignore: './src/ts/**/*.d.ts' });
 
 await esbuild.build({
   entryPoints,
