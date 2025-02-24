@@ -33,6 +33,7 @@
     "@prettier/plugin-php": "^0.22.4",
     "@wordpress/env": "^10.18.0",
     "chokidar-cli": "^3.0.0",
+    "concurrently": "^9.1.2",
     "esbuild": "^0.25.0",
     "esrun": "^3.2.26",
     "glob": "^11.0.1",
@@ -42,6 +43,7 @@
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.0.8",
+    "alpinejs": "^3.14.8",
     "tailwindcss": "^4.0.8"
   }
 }
