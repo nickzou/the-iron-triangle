@@ -20,6 +20,7 @@
     "php:format": "prettier . --write",
     "php:watch": "chokidar './web/wp-content/themes/**/*.php' -c 'prettier {path} --write'",
     "php:lint": "esrun phplint.mjs",
+    "php:lint:watch": "chokidar './web/wp-cotent/themes/base-theme/**/*.php' -i '{vendor}' -c 'php -l {path}'",
     "ts:dev": "esrun esbuild.config.mjs",
     "ts:prod": "esrun esbuild.prod.mjs",
     "ts:watch": "esrun esbuild.watch.mjs",
