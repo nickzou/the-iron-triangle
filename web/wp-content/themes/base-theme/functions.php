@@ -13,7 +13,6 @@ function load_theme_files()
             continue;
         }
 
-        // Get all PHP files in this directory
         $files = glob($full_dir . '/*.php');
 
         foreach ($files as $file) {
@@ -22,5 +21,4 @@ function load_theme_files()
     }
 }
 
-// Load all theme files in order
 load_theme_files();
