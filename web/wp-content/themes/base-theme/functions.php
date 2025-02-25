@@ -3,7 +3,7 @@
 function load_theme_files()
 {
     $directories = [
-        'config',
+        'blocks',
     ];
 
     foreach ($directories as $dir) {

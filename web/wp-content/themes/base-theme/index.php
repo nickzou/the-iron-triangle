@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+use BASE_THEME;
+
+get_header();
+?>
 
 <main>
     <?php if (have_posts()):
@@ -7,6 +11,7 @@
             <article>
                 <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                 <?php the_content(); ?>
+<?php BASE_THEME\example(); ?>
             </article>
     <?php
         endwhile;
