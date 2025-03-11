@@ -2,8 +2,10 @@
 node_modules
 vendor
 
+.env
 .php-cs-fixer.cache
 
 web/wp-content/plugins/
 web/wp-content/themes/*/css/
 web/wp-content/themes/*/js/
+web/wp-content/themes/*/blocks/*
